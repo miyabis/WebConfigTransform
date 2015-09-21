@@ -1,5 +1,9 @@
 # WebConfigTransform
 
+
+[![Build status](https://ci.appveyor.com/api/projects/status/w4061acgsjxf4p1u?svg=true)](https://ci.appveyor.com/project/miyabis/webconfigtransform)
+
+
 Web.Config Transform.
 connectionStrings, userSettings, applicationSettings, log4net.config file.
 In advance, Web.Debug.config, Web.Main.config, Web.Hotfix.config, Web.Release.config, 
