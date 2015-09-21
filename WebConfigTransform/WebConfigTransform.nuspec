@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>MiYABiS.WebConfigTransform</id>
+        <version>1.0.0-Beta</version>
+        <title>Web.Config Transform</title>
+        <authors>MiYABiS</authors>
+        <owners>MiYABiS</owners>
+      <licenseUrl>https://github.com/miyabis/WebConfigTransform#license</licenseUrl>
+      <projectUrl>https://github.com/miyabis/WebConfigTransform</projectUrl>
+      <requireLicenseAcceptance>false</requireLicenseAcceptance>
+      <description>Web.Config Transform.
+connectionStrings, userSettings, applicationSettings,log4net.config file.
+In advance, Web.Debug.config, Web.Main.config, Web.Hotfix.config, Web.Release.config,
+log4net.Debug.config, log4net.Main.config, log4net.Hotfix.config, log4net.Release.config is available.
+log4net.config file will be included in the clickonce publish.
+      </description>
+      <summary>Web.Config, log4net.config file Transform.</summary>
+      <copyright>Copyright © 2015 MiYABiS All Rights Reserved.</copyright>
+        <language>en-US</language>
+        <tags>Web.Config Transform log4net</tags>
+    </metadata>
+  <files>
+    <file src="build\MiYABiS.WebConfigTransform.targets" target="build\MiYABiS.WebConfigTransform.targets" />
+    <file src="content\My Project\WebConfigTransformAssemblyInfo.vb" target="content\My Project\WebConfigTransformAssemblyInfo.vb" />
+    <file src="content\Properties\WebConfigTransformAssemblyInfo.cs" target="content\Properties\WebConfigTransformAssemblyInfo.cs" />
+    <file src="content\log4net.config" target="content\log4net.config" />
+    <file src="content\log4net.Hotfix.config" target="content\log4net.Hotfix.config" />
+    <file src="content\log4net.Main.config" target="content\log4net.Main.config" />
+    <file src="content\log4net.Release.config" target="content\log4net.Release.config" />
+    <file src="content\Web.Hotfix.config.pp" target="content\Web.Hotfix.config.pp" />
+    <file src="content\Web.Main.config.pp" target="content\Web.Main.config.pp" />
+    <file src="content\Web.Release.config.transform" target="content\Web.Release.config.transform" />
+    <file src="tools\install.ps1" target="tools\install.ps1" />
+    <file src="tools\uninstall.ps1" target="tools\uninstall.ps1" />
+    <file src="Readme.txt" target="Readme.txt" />
+  </files>
+</package>
