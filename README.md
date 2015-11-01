@@ -2,7 +2,7 @@
 
 
 [![Build status](https://ci.appveyor.com/api/projects/status/w4061acgsjxf4p1u?svg=true)](https://ci.appveyor.com/project/miyabis/webconfigtransform)
-
+[![NuGet](https://img.shields.io/nuget/v/MiYABiS.WebConfigTransform.svg)](https://www.nuget.org/packages/MiYABiS.WebConfigTransform/)
 
 Web.Config Transform.
 connectionStrings, userSettings, applicationSettings, log4net.config file.
