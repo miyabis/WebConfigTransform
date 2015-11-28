@@ -8,3 +8,5 @@
 *.suo
 *.user
 /packages
+*.nupkg
+*.suo
